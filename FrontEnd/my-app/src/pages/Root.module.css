@@ -1,0 +1,12 @@
+body {
+  /* background-color: #f2eee8; */
+  /* #f5f5dc */
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #fce3ec 0%, #fff9db 100%);
+  /* #ffdee9 */
+}
+
+.content {
+  margin: 2rem auto;
+  text-align: center;
+}

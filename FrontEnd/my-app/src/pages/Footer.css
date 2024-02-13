@@ -1,0 +1,53 @@
+/* Footer.css */
+
+.main_footer {
+  max-width: 1260px;
+  margin: 0 auto 30px;
+  padding: 0 30px;
+  /* Add your custom styles here */
+}
+
+.upper_footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0 50px;
+  border-top: 1px solid #e0dcd3;
+}
+
+.upper_footer_item {
+  max-width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 30px;
+  font-size: 1rem;
+  color: #605f4d;
+  word-wrap: break-word;
+  flex-basis: auto;
+  flex-grow: 1;
+  width: auto;
+}
+
+.sub_footer {
+  margin-top: 40px;
+  font-size: 16px;
+  border-top: 0;
+  padding-top: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 1rem;
+  color: #8b8a88;
+}
+
+h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #605f4d;
+  font-size: 1.14286rem;
+  line-height: 1.25;
+}
+
+.upper_footer a {
+  display: block;
+  text-decoration: inherit;
+}

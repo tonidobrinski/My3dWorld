@@ -1,0 +1,82 @@
+/* Order.css */
+
+/* Apply styles to the entire page */
+.order-page {
+  max-width: 900px; /* Increased width for a more spacious feel */
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Heading styles */
+.section-title {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Paragraph styles */
+.order-page p {
+  margin-bottom: 20px; /* Increased spacing between paragraphs */
+  line-height: 1.5;
+}
+
+/* Link styles */
+.contact-link {
+  color: #008cba;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-link:hover {
+  color: #00aaff;
+}
+
+/* List styles */
+.order-page ul {
+  list-style-type: none; /* Remove default bullet points */
+  margin-left: 20px;
+  padding-left: 20px; /* Add left padding for list items */
+  margin-bottom: 20px; /* Increased spacing between lists */
+}
+
+.order-page li {
+  margin-bottom: 5px;
+  position: relative; /* Position for custom bullet */
+  line-height: 1.5;
+}
+
+.order-page li::before {
+  content: "\2022"; /* Custom bullet character (Unicode for bullet point) */
+  position: absolute;
+  left: -15px; /* Adjust as needed */
+  color: #008cba; /* Bullet color */
+  font-weight: bold;
+}
+
+/* Button styles */
+.order-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #008cba;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.order-button:hover {
+  background-color: #00aaff;
+}
+
+ul {
+  text-align: left;
+}

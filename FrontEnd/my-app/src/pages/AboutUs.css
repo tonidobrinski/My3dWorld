@@ -1,0 +1,47 @@
+.about-us-container1.left-content,
+.about-us-container2.right-content,
+.about-us-container3.left-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 60px;
+}
+
+.left-content .text-container,
+.right-content .text-container {
+  flex-basis: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.right-content .text-container {
+  align-items: flex-end;
+}
+
+.left-content img,
+.right-content img {
+  flex-basis: 50%;
+  max-height: 400px;
+}
+
+.left-content h2,
+.right-content h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.left-content p,
+.right-content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
